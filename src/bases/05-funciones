@@ -1,0 +1,22 @@
+function saludar(nombre){
+  return `Hola, ${nombre}`;
+}
+
+console.log(saludar('Rubenion'))
+
+const getUser = () => ({
+  uid:'ABC123',
+  username:'Wanted'
+});
+
+const user = getUser();
+
+console.log(user);
+
+const getUsuarioActivato = (nombre)=>({
+    uid: 'ABC567',
+    username: nombre
+});
+
+const usuarioActivo = getUsuarioActivato('Fernando');
+console.log(usuarioActivo);
